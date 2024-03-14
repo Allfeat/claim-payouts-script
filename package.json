@@ -1,0 +1,16 @@
+{
+  "name": "claim-payouts-script",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.0.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@allfeat/types": "Allfeat/js-types#master",
+    "@polkadot/api": "^10.12.2",
+    "dotenv": "^16.4.5"
+  }
+}
